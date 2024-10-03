@@ -51,7 +51,7 @@ const Header = () => {
   return (
     <div className="w-full h-20 bg-amazon_blue text-lightText sticky top-0 z-50">
       <div className="h-full w-full mx-auto inline-flex items-center justify-between gap-1 mdl:gap-3 px-4">
-        {/* logo */}
+        {/* our header logo */}
         <Link
           href={"/"}
           className="px-2 border border-transparent hover:border-white cursor-pointer duration-300 flex items-center justify-center h-[70%]"
@@ -156,7 +156,7 @@ const Header = () => {
           <p className="text-white font-bold">& Favorite</p>
           {favoriteData.length > 0 && (
             <span className="absolute right-2 top-2 w-4 h-4 border-[1px] border-gray-400 flex items-center justify-center text-xs text-amazon_yellow">
-              {favoriteData.length}
+              {favoriteData.length}                                                                                                                                                                                   
             </span>
           )}
         </Link>
